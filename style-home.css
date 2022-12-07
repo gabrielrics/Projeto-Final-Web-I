@@ -133,28 +133,28 @@ footer ul li::before {
 	font-size: 96px;
 	height: 0;
 	overflow: hidden;
-	transition: 0.5s ease-out;
+	transition: 0.5s ease-in-out;
 } 
 
-footer ul li:nth-child(1)::before {
+footer ul li:nth-child(1) {
 	content: "\f09b";
-	background-image: linear-gradient(45deg, #662d91 0%, #720e9e 25%, #452c63 50%, #33006F 75%, #1d1160 100%);
+	background: linear-gradient(45deg, #662d91 0%, #720e9e 25%, #452c63 50%, #33006F 75%, #1d1160 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	border-bottom: 4px solid #720e9e;
 }
 
-footer ul li:nth-child(2)::before {
+footer ul li:nth-child(2) {
 	content: "\f09b";
-	background-image: linear-gradient(45deg, #FFAE42 0%, #FF8C00 25%, #FF6700 50%, #FF4500 75%, #C0362C 100%);
+	background: linear-gradient(45deg, #FFAE42 0%, #FF8C00 25%, #FF6700 50%, #FF4500 75%, #C0362C 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	border-bottom: 4px solid #FF8C00;
 }
 
-footer ul li:nth-child(3)::before {
+footer ul li:nth-child(3) {
 	content: "\f09b";
 	background-image: linear-gradient(45deg, #00bfff 0%, #00FA9A 25%, #1c39bb 50%, #FF00FF 75%, #00FF7F 100%);
 	background-clip: text;
